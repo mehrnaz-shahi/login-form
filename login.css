@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: Felix Titling;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(50, 42, 42);
+   background: linear-gradient(54deg, #342c0ab5, #e1cc5199);}
+.login-div{
+    width: 430px;
+    height: 630px;
+    background-color: #dadada; 
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    box-shadow: 2px 5px 18px 1px #897a7a,
+    -2px -2px 8px 3px #ffffff;
+}
+.logo{
+    background: url("./logo.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px gray,
+    0 0 0 5px azure,
+    8px 8px 15px gainsboro,
+    -8px -8px 15px aliceblue;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 24px;
+    color: #4f4343;
+}
+.fields{
+    width: 100%;
+    padding: 25px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    /* background-color: #fdfcfd; */
+     font-size: 18px;
+    padding: 20px 10px 20px 5px;
+    
+}
+.username, .password{
+    margin-bottom: 16px;
+    border-radius: 25px;
+    /* box-shadow: 3px 4px 14px #948888,
+     -4px -3px 17px 0px #f7f2f2; */
+    box-shadow: inset 4px 3px 12px #b8b2b2, 
+    inset -4px -3px 6px 0px #f7f2f2,
+     -2px -2px 20px #f7f7f7;
+}
+.username i, .password i{
+    margin: 0 10px -4px 25px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(171deg, #f2d057ed, #a6a55ebf); 
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #392102;
+    box-shadow:  1px 3px 14px 3px #e89b0e,
+     -5px -3px 10px 3px #f6f6f6;
+}
+button:hover{
+    box-shadow: 1px 0px 20px 1px #f8f539;
+    border: solid 2px #ffffff8a;}
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #8d8f90;
+    font-size: 15px;
+}
+.password-valid, .username-valid{
+    visibility: hidden;
+    font-size: 10px;
+    margin: 10px 21px 15px 21px;
+    color: #f34040;
+}
+.sign-in-successed{
+    visibility: hidden;
+    margin: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: #00ab3a;
+    font-weight: bold;
+}
